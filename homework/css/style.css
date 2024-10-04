@@ -282,3 +282,61 @@ nav {
   display: flex;
   gap: 40px;
 }
+/* game-start */
+.cloud-gaming-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #000;
+  color: #fff;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.category-title {
+  color: #00aaff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-title {
+  display: flex;
+  padding-bottom: 38px;
+  font-family: Orbitron;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 74px;
+  text-align: left;
+  width: 684px;
+  height: 148px;
+  top: 43.58px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.description {
+  padding-top: 38px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 721px;
+  height: 120px;
+  top: 229.58px;
+  gap: 0px;
+  opacity: 0px;
+  color: grey;
+}
+
+.explore-button {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #00aaff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/* game-finish */
